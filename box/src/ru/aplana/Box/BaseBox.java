@@ -1,6 +1,6 @@
 package ru.aplana.Box;
 
-public abstract class Sweets {
+public abstract class BaseBox {
 
 	protected String name;
 	protected double weight;
@@ -8,7 +8,7 @@ public abstract class Sweets {
 	protected String paramFilling;
 	
 	
-	public Sweets(String name, double weight, double price, String paramFilling) {
+	public BaseBox(String name, double weight, double price, String paramFilling) {
 		this.name = name;
 		this.weight = weight;
 		this.price = price;

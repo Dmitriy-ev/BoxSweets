@@ -1,10 +1,10 @@
 package ru.aplana.Box;
 
-public interface BoxSweets {
+public interface ActionOfSweets {
 
-	void add(Sweets s);
+	void add(BaseBox s);
 	
-	void remove(Sweets s);
+	void remove(int i) throws Exception;
 	
 	double getWeight();
 	
